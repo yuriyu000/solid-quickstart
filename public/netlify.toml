@@ -1,0 +1,17 @@
+[build]
+  command = "solid-start build"
+  functions = "netlify/functions"
+  publish = "netlify"
+
+[[redirects]]
+  from = "http://shop.sflabo.com/"
+  to = "https://yu-sflabo.booth.pm/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "https://shop.sflabo.com/"
+  to = "https://yu-sflabo.booth.pm/"
+  status = 301
+  force = true
+  ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
