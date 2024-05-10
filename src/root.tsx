@@ -20,7 +20,7 @@ export default function Root() {
       <Head>
         <Title>Redirecting...</Title>
         <Meta charset="utf-8" />
-       <meta http-equiv=”refresh” content=”0;URL=’https://yu-sflabo.booth.pm/'” />
+       <meta http-equiv="refresh" content="0;URL='https://yu-sflabo.booth.pm/'" />
       </Head>
       <Body>
       </Body>
